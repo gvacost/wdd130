@@ -51,7 +51,7 @@ h2 {
   text-align: center;
 }
 hr {
-  height: 3px;
+  height: 5px;
   margin: 35px 0;
   background: var(--accent1-color);
 }
