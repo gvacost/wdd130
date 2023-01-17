@@ -10,7 +10,7 @@ Fonts are separated by a & *
   --primary-color: #396E94   ;
   --secondary-color: #E7C24F ;
   --accent1-color: #A42212;
-  --accent2-color: white;
+  --accent2-color: rgb(216, 166, 166);
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Alfa Slab One";
@@ -23,9 +23,9 @@ Fonts are separated by a & *
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
   --paragraph-background-color: #396E94  ;
   --nav-link-color: #92caf1;
-  --nav-background-color: #f5b266;
-  --nav-hover-link-color: rgb(11, 9, 145);
-  --nav-hover-background-color: #b0def8;
+  --nav-background-color: #f1b671;
+  --nav-hover-link-color: rgb(19, 17, 143);
+  --nav-hover-background-color: #b5dcf3;
 }
 
 
