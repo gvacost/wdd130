@@ -5,3 +5,37 @@ nav, a {text-align:center}
 .button-box {text-align: center;}
 main, section {text-align: center;}
 #background {height: 725px;}
+
+body {background-color: #fcfbff; color:black}
+header {background-color: steelblue; color: white;}
+nav a:hover {background-color: gainsboro; color: blue;}
+.book, .join {background-color: rgb(118, 255, 171); color: rgb(88, 9, 88);}
+.book:hover, .join:hover {background-color: rgb(75, 74, 74); color: aliceblue;}
+#background {background-color: blanchedalmond; color: blueviolet;}
+.msg {background-color: peachpuff; color: rgb(201, 78, 78);}
+footer {background-color: rgb(182, 118, 182); color: aqua;}
+
+nav a {background-color: violet; color: #000;}
+.home-title {background-color: yellow; color: blue;}
+h4 {background-color: yellowgreen; color: #000;}
+.msg h2 {background-color: red ; color: aqua;}
+.msg p {background-color: royalblue; color: #fcfbff;}
+footer a {background-color: blue; color: blanchedalmond;}
+footer a:hover {background-color: aquamarine; color: black;}
+
+.logo {width: 80px;}
+.icon {width: 80px;}
+#hero-img {width: 100%;}
+
+nav a {  text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;}
+.book, .join {  text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;}
+footer a {  text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;}
+footer p {font-size: 1.2em;} 
+footer p a:hover {
+    text-decoration: underline;} 
