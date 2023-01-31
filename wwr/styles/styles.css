@@ -22,12 +22,12 @@ nav a:hover {background-color: gainsboro; color: blue;}
 .msg {background-color: peachpuff; color: rgb(201, 78, 78);}
 footer {background-color: rgb(182, 118, 182); color: aqua;}
 
-nav a {background-color: violet; color: #000;}
+nav a {background-color: rgb(206, 162, 206); color: #000;}
 .home-title {background-color: yellow; color: blue;}
 h4 {background-color: yellowgreen; color: #000;}
-.msg h2 {background-color: red ; color: aqua;}
+.msg h2 {background-color: rgb(209, 68, 68) ; color: aqua;}
 .msg p {background-color: royalblue; color: #fcfbff;}
-footer a {background-color: blue; color: blanchedalmond;}
+footer a {background-color: rgb(138, 138, 236); color: blanchedalmond;}
 footer a:hover {background-color: aquamarine; color: black;}
 
 .logo {width: 80px;}
