@@ -15,14 +15,14 @@ main section {
 
 body {background-color: #fcfbff; color: black}
 header {background-color: steelblue; color: white;}
-nav a:hover {background-color: gainsboro; color: blue;}
+nav a:hover {background-color: rgb(128, 174, 212); color: rgb(148, 148, 228);}
 .book, .join {background-color: rgb(118, 255, 171); color: rgb(88, 9, 88);}
 .book:hover, .join:hover {background-color: rgb(75, 74, 74); color: aliceblue;}
 #background {background-color: blanchedalmond; color: blueviolet;}
 .msg {background-color: peachpuff; color: rgb(201, 78, 78);}
 footer {background-color: rgb(182, 118, 182); color: aqua;}
 
-nav a {background-color: rgb(255, 255, 255); color: #000;}
+nav a {background-color: steelblue; color: #000;}
 .home-title {background-color: yellow; color: blue;}
 h4 {background-color: yellowgreen; color: #000;}
 .msg h2 {background-color: rgb(209, 68, 68) ; color: aqua;}
