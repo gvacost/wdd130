@@ -8,7 +8,8 @@ nav a {
     text-align: center;}
 .button-box {
     text-align: center;}
-main section {
+main {text-align: center;} 
+section {
     text-align: center;}
 #background {
     height: 725px;}
