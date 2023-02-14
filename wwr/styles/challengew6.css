@@ -1,0 +1,27 @@
+#content {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(3,1fr);
+}
+.mainimg{
+    grid-column: 1/2;
+    grid-row: 1/4;
+    margin-left: auto;
+    }
+h1 {grid-column: 1/3;
+    grid-row: 1/3;
+    z-index:1; 
+    text-align: center;
+    align-self:center ;
+    font-size: 150px;
+    letter-spacing: 20px;
+    margin: auto;
+    }
+#nn {background-color: rgb(173, 169, 169);
+    grid-column: 2/3;
+    grid-row: 1/4;}
+#sub {color: rgba(175, 16, 16, 0.849);
+    font-size: 70px;
+    letter-spacing: 7px;
+    text-align: center;
+    }
