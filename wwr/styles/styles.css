@@ -111,10 +111,9 @@ footer .social img   {padding-top: 5px;}
 .rivers-card, .rapids-card, .camping-card {text-align:center; margin: 200px 0;}
 .card-img {border: 7px solid black;
     transition: transform .5s;
-    box-shadow: 5px 5px 10px #6f7364;}
-.card-img, .mountains {
-    width: 100%;
-}
+    box-shadow: 5px 5px 10px #6f7364;
+    width: 100%;}
+
 .card-img:hover {
     opacity: .6;
     transform: scale(1.1);
@@ -127,7 +126,8 @@ footer .social img   {padding-top: 5px;}
     grid-row: 2/3;} 
 #background {grid-column: 1/11;
     grid-row: 4/9;}
-.mountains {grid-column: 2/7;
+.mountains {width: 100%;
+    grid-column: 2/7;
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;}
 .msg {grid-column: 6/10;
