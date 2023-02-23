@@ -109,10 +109,6 @@ footer .social img   {padding-top: 5px;}
 .icon {width: 80px; padding-top: 10px;}
 #hero-img {width: 100%;}
 .rivers-card, .rapids-card, .camping-card {text-align:center; margin: 200px 0;}
-.card-img {border: 7px solid black;
-    transition: transform .5s;
-    box-shadow: 5px 5px 10px #6f7364;
-    width: 100%;}
 
 .card-img:hover {
     opacity: .6;
@@ -121,7 +117,7 @@ footer .social img   {padding-top: 5px;}
 .rivers-card {grid-column: 2/4;
     grid-row: 2/3;} 
 .camping-card {grid-row: 2/3;
-    grid-column:5/7;}
+    grid-column: 5/7;}
 .rapids-card {grid-column: 8/10;
     grid-row: 2/3;} 
 #background {grid-column: 1/11;
@@ -132,6 +128,11 @@ footer .social img   {padding-top: 5px;}
     box-shadow: 5px 5px 10px #6f7364;}
 .msg {grid-column: 6/10;
     grid-row: 6/7;}
+
+.card-img {border: 7px solid black;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+    width: 100%;}
 
 footer p {font-size: 1.2em;} 
 footer p a:hover {
