@@ -82,7 +82,10 @@ footer {background-color: rgb(182, 118, 182);
     grid-template-columns: repeat(10, 1fr);}
 
 .rivers-card, .rapids-card, .camping-card {text-align:center; margin: 200px 0;}
-
+.card-img {border: 7px solid black;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+    width: 100%;}
 .rivers-card {grid-column: 2/4;
     grid-row: 2/3;} 
 .camping-card {grid-row: 2/3;
@@ -98,10 +101,7 @@ footer {background-color: rgb(182, 118, 182);
 .msg {grid-column: 6/10;
     grid-row: 6/7;}
     
-.card-img {border: 7px solid black;
-    transition: transform .5s;
-    box-shadow: 5px 5px 10px #6f7364;
-    width: 100%;}
+
 
 .home-title {background-color: rgb(231, 231, 87); 
     color: blue; 
