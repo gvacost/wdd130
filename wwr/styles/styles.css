@@ -80,7 +80,7 @@ footer {background-color: rgb(182, 118, 182);
 
 #home-grid{ display: grid;
     grid-template-columns: repeat(10, 1fr);}
-
+    
 .rivers-card, .rapids-card, .camping-card {text-align:center; margin: 200px 0;}
 .card-img {border: 7px solid black;
     transition: transform .5s;
@@ -99,8 +99,8 @@ footer {background-color: rgb(182, 118, 182);
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;}
 .msg {grid-column: 6/10;
-    grid-row: 6/7;}
-    
+    grid-row: 6/7;}   
+
 
 
 .home-title {background-color: rgb(231, 231, 87); 
