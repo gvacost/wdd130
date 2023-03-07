@@ -1,0 +1,54 @@
+
+.home-grid {grid-column: 2/3;
+border-radius: 20%;}
+
+.pip {background-color: rgb(255, 255, 255);
+    padding: 0%;
+    margin-top: 0%;}
+
+#image {text-align: center;
+    width: 100%;}
+
+h3 {text-align: center;
+    color: steelblue;}
+
+h1 {text-align: center;}
+
+.text {text-align: center;
+    align-self: center;
+    overflow: auto;
+    }
+
+footer {display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: steelblue;
+    padding: 0%;
+    margin-top: 0%;
+    grid-template-rows: 1fr, 1fr;}
+
+.pos, .views, .comm, .posb, .viewsb, .commb {text-align: center;
+    align-self: center;
+    justify-self: center;
+    color: white;}
+
+
+.pos {grid-column: 1/2;
+    margin-right: 10px;
+    width: 100%;
+    grid-row: 1/2;}
+.posb {grid-column: 1/2;
+    text-align: center;}
+
+.views {grid-column: 2/3;
+    margin: 10px;
+    width: 100%;
+    grid-row:1/2;}
+.viewsb {grid-column: 2/3;
+    text-align: center;}
+
+.comm {grid-column: 3/4;
+    margin-left: 10px;
+    width: 100%;
+    grid-row: 1/2;}
+.commb {grid-column: 3/4;
+    text-align: center;}
