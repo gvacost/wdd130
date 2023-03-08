@@ -22,37 +22,82 @@ nav {display: flex;
 nav a:hover {background-color: rgb(128, 174, 212); 
     color: rgb(0, 0, 0);}
 
-.home-grid {display: grid;
-    grid-template-columns: 1fr, 1fr;
-    grid-template-rows: 1fr, 1fr, 1fr;
-    background-color: rgb(243, 236, 236);}
+.home-grid {
+    background-color: rgb(243, 236, 236);
+    padding-top: 30px;
+    padding-bottom: 100px;}
 
+
+.idaho {display: grid;
+    grid-template-columns: 1fr, 1fr;
+    grid-template-rows: 1fr;
+    padding: 30px;}
+.title1 {grid-column: 1/2;
+    grid-row: 1/2;
+    text-align: justify;
+    align-self: top;
+    font-size: 35px;
+    padding-bottom: 10px;}
 .text1 {grid-column: 1/2;
-    text-align: left}
+    grid-row: 1/2;
+    text-align: left;
+    align-self: top;
+    font-size: 30px;
+    padding-top: 40px}
 .salmon-img {grid-column: 2/3;
-    width: 50%;
+    width: 100%;
   }
 
-
+.utah {display: grid;
+    grid-template-columns: 1fr, 1fr;
+    grid-template-rows: 1fr;
+    padding: 30px;}
+.title2 {grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: right;
+    align-self: top;
+    font-size: 35px;
+    padding-bottom: 10px;}
 .desolation-img {grid-column: 1/2;
-    width: 50%;}
-.text2{grid-column: 2/3;}
+    width: 100%;}
+.text2{grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: right;
+    align-self: top;
+    font-size: 30px;
+    padding-top: 40px}
 
+.arizona {display: grid;
+    grid-template-columns: 1fr, 1fr;
+    grid-template-rows: 1fr;
+    padding: 30px;}
+.title3 {grid-column: 1/2;
+    grid-row: 1/2;
+    text-align: justify;
+    align-self: top;
+    font-size: 35px;
+    padding-bottom: 10px;}
 .canyon-img {grid-column: 2/3;
-    width: 50%;}
-.text3 {grid-column: 1/2;}
+    width: 100%;}
+.text3 {grid-column: 1/2;
+    grid-row: 1/2;
+    text-align: left;
+    align-self: top;
+    font-size: 30px;
+    padding-top: 40px;
+    }
 
 footer {background-color: rgb(209, 185, 209); 
     color: rgb(146, 179, 179); 
-    padding: 25px 50px; 
-    margin-top: 200px;
+    padding: 20px;
+    margin-top: 0;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr, 1fr;
+    grid-template-rows: 1fr;
     justify-content: space-around;
     align-items: center;}
 
-h4 {font-size: 20px;
+h4 {font-size: 30px;
     color: #000;
     text-align: center;
     align-self: end;
@@ -60,12 +105,14 @@ h4 {font-size: 20px;
     grid-row: 1/2;}
 
 .social { grid-column: 1/2;
-    text-align: left;}
+    text-align: left;
+    align-self: bottom;}
 
 .copy {grid-column: 2/3;
+    grid-row: 1/2;
     text-align: auto;
     color: blue;
-    align-content: end;
+    align-self: bottom  ;
     }
 
 .faqs {grid-column: 3/4;}
