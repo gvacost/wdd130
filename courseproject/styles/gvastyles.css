@@ -70,8 +70,8 @@ footer {background: #396E94;
 
 .site {grid-row: 1/2;
     text-align: start;
-    padding: 15px;}    
-.site a:hover {}
+    padding: 15px;
+    color: #000;}    
 
 footer p {grid-row: 2/3;
     align-self: end;
