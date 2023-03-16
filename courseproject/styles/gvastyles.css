@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Labrada:wght@100&family=Luckiest+Guy&display=swap');
+
+
+header {background: #396E94;
+    color: black;
+    display: grid;
+    grid-template-columns: 150px auto;}
+
+body {background-color:#AAC5C1 ;}
+.logo {width: max-content;}
+nav {display: flex;
+    justify-content: space-around;}
+nav a {text-align: center;
+    align-self: center ;
+    text-decoration: none; 
+    padding: 15px;
+    background-color: #396E94;
+    color: #000;
+    font-size: 30px;}
+
+nav a:hover {background: #CE1818;}    
+
+#home-grid{background-color: #AAC5C1;}
+
+#first {display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 30px;
+    }
+
+#second {display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 25px;}
+    
+.first {grid-column: 2/3;
+    grid-row: 1/2;
+text-align: justify;
+padding: 10px;}
+.img1 {grid-column: 1/2;
+    grid-row: 1/2;
+width: max-content;
+text-align: center;
+padding-top: 30px;
+align-self: center;}
+
+
+.second {grid-column: 1/2;
+    grid-row: 2/3;
+    text-align: justify;
+    margin: 5px;
+    padding: 10px;}
+    
+.img2 {grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: center;
+    padding-left: 30px;
+    width: max-content;}
+
+
+footer {background: #396E94;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 1fr;}
+
+
+.social {text-align: right;
+    grid-row: 2/3;
+    padding: 15px;
+    }
+
+.site {grid-row: 1/2;
+    text-align: start;
+    padding: 15px;}    
+.site a:hover {}
+
+footer p {grid-row: 2/3;
+    align-self: end;
+    padding: 15px;}
