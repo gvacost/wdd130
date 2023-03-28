@@ -17,11 +17,12 @@ nav a {text-align: center;
     align-self: center ;
     text-decoration: none; 
     padding: 15px;
-    background-color: #396E94;
-    color: #000;
+    background-color: #EBD532;
+    color: #CE1818;
     font-size: 30px;}
 
-nav a:hover {background: #CE1818;}    
+nav a:hover {background: #396E94;
+  color: white}    
 
 #home-grid{background-color: #AAC5C1;}
 
@@ -33,7 +34,9 @@ nav a:hover {background: #CE1818;}
 #second {display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 25px;}
-    
+h5 {font-family: "Luckiest Guy";
+  font-size: 15px;
+  color: #004785;}   
 .first {grid-column: 2/3;
     grid-row: 1/2;
 text-align: justify;
@@ -44,7 +47,7 @@ width: max-content;
 text-align: center;
 padding-top: 30px;
 align-self: center;}
-
+p {font-family: Labrada;}
 
 .second {grid-column: 1/2;
     grid-row: 2/3;
