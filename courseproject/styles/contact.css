@@ -25,29 +25,31 @@ nav a {text-align: center;
 nav a:hover {background: #396E94;
       color: white}    
 
-#home-grid{background-color: #AAC5C1;}
-#project1 {padding: 15px;
-text-align: start;}
-.img1 {max-width: max-content;
-}
-h5 {font-family: "Luckiest Guy";
-  font-size: 15px;
-  color: #004785;} 
-#project2 {padding: 15px;
-    }
-.project2 {text-align: center}
-p {text-align: start;}
-.img2 {width: 40%;
-}
-p {font-family: Labrada;
-  color: #004785}
+#home-grid{background-color: #AAC5C1;
+  display: grid;
+  grid-template-columns: 1fr, 1fr;
+  grid-template-rows: 1fr, 1fr;}
 
-.contact {padding: 5px;}  
+.message{grid-column: 1/2;
+  grid-row: 1/2;
+  padding: 15px;}
+.img1 {grid-column: 1/2;
+  grid-row: 2/3;
+  padding: 15px;
+  text-align: center;}
+.img2 {grid-column: 2/3;
+  grid-row: 2/3;
+  text-align: center;
+  padding: 15px;}
+.contact {padding: 15px;
+  grid-column: 2/3;
+  grid-row: 1/2;}  
 label{padding: 5px
     ;}
 li {padding: 5px;
     }
-
+p {font-family: Labrada;
+  color: #004785}
 footer {background: #396E94;
     display: grid;
     grid-template-columns: auto;

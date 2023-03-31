@@ -7,84 +7,86 @@
     <title>GVA Design and Developer</title>
     <link rel="stylesheet" href="styles/contact.css">
 </head>
-<body>  
-    <header>
-        <a href="index.html" id="logo_link">
-            <img src="images/rsz_gva.png" alt="logo image" id="logo">
-        </a>
-        <nav>
-            <a href="index.html">Home Page</a>
-            <a href="projets.html">Projects Dones</a>
-            <a href="contact.html">Contact</a>
-            <div class="topnav">
-                <input type="text" placeholder="Search..">
-                <!-- <div class="search-container">
-                    <button type="submit">Submit</button>
-                </div> -->
+<body> 
+    <div class="content"> 
+        <header>
+            <a href="index.html" id="logo_link">
+                <img src="images/rsz_gva.png" alt="logo image" id="logo">
+            </a>
+            <nav>
+                <a href="index.html">Home Page</a>
+                <a href="projects.html">Projects Dones</a>
+                <a href="contact.html">Contact</a>
+                <div class="topnav">
+                    <input type="text" placeholder="Search..">
+                    <!-- <div class="search-container">
+                        <button type="submit">Submit</button>
+                    </div> -->
+                </div>
+            </nav>
+        </header>
+        <main id="home-grid">
+            <section class="message">
+                <p class="mess"> If you have dig into the basic information and want to know more, make a consultation or solicitate a budget for your project, you can contact me trough e-mail at example.example.example@gmail.com.
+                You can also communicate through social networks such as Facebook, Instagram or LinkedIn</p>
+            </section>
+            <img class="img1" src="images/gmail.webp" alt="contact 1">
+            <img class="img2" src="images/videocall.webp" alt="contact 2">
+            <section class="contact">
+                <div id="feedback"></div>
+                <form action="/my-handling-form-page" method="post">
+                    <ul>
+                        <li>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="user_name" />
+                        </li>
+                        <li>
+                        <label for="mail">Email:</label>
+                        <input type="email" id="mail" name="user_email" />
+                        </li>
+                        <li>
+                        <label for="msg">Message:</label>
+                        <textarea id="msg" name="user_message"></textarea>
+                        </li>
+                        <li class="button">
+                        <button type="submit">Send your message</button>
+                        </li>
+                    </ul>
+                </form>
+                <script>
+                    // get the feedback div element so we can do something with it.
+                    const feedbackElement = document.getElementById('feedback');
+                    // get the form so we can read what was entered in it.
+                    const formElement = document.forms[0];
+                    // add a 'listener' to wait for a submission of our form. When that happens run the code below.
+                    formElement.addEventListener('submit', function(e) {
+                        // stop the form from doing the default action.
+                        e.preventDefault();
+                        // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
+                        feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Your query will be answered as quickly as possible. Thank you so much!';
+                        // make the feedback element visible.
+                        feedbackElement.style.display = "block";
+                        // add a class to move everything down so our message doesn't cover it.
+                        document.body.classList.toggle('moveDown');
+                    });
+                </script>  
+            </section>
+        </main>
+        <footer>
+            <p>GVA &copy; 2023 - Gonzalo Acosta</p>
+            <a href="site-plan.html">Site Plan</a>
+            <div class="social">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="https://byui-wdd.github.io/wdd130/rafting_images/facebook.png" alt="fb icon">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="https://byui-wdd.github.io/wdd130/rafting_images/instagram.png" alt="instagram icon">
+                </a>
+                <a href="https://www.linkedin.com/" target="_blank">
+                    <img src="images/logo-linkedin-icon-1024(2).png" alt="linkedin icon">
+                </a>
             </div>
-        </nav>
-    </header>
-    <main id="home-grid">
-        <section class="message">
-            <p> If you have dig into the basic information and want to know more, make a consultation or solicitate a budget for your project, you can contact me trough e-mail at example.example.example@gmail.com.
-            You can also communicate through social networks such as Facebook, Instagram or LinkedIn</p>
-            <img src="images/gmail.webp" alt="contact 1">
-            <img src="images/videocall.webp" alt="contact 2">
-        </section>
-        <section class="contact">
-            <div id="feedback"></div>
-            <form action="/my-handling-form-page" method="post">
-                <ul>
-                    <li>
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="user_name" />
-                    </li>
-                    <li>
-                    <label for="mail">Email:</label>
-                    <input type="email" id="mail" name="user_email" />
-                    </li>
-                    <li>
-                    <label for="msg">Message:</label>
-                    <textarea id="msg" name="user_message"></textarea>
-                    </li>
-                    <li class="button">
-                    <button type="submit">Send your message</button>
-                    </li>
-                </ul>
-            </form>
-            <script>
-                // get the feedback div element so we can do something with it.
-                const feedbackElement = document.getElementById('feedback');
-                // get the form so we can read what was entered in it.
-                const formElement = document.forms[0];
-                // add a 'listener' to wait for a submission of our form. When that happens run the code below.
-                formElement.addEventListener('submit', function(e) {
-                    // stop the form from doing the default action.
-                    e.preventDefault();
-                    // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
-                    feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Your query will be answered as quickly as possible. Thank you so much!';
-                    // make the feedback element visible.
-                    feedbackElement.style.display = "block";
-                    // add a class to move everything down so our message doesn't cover it.
-                    document.body.classList.toggle('moveDown');
-                });
-              </script>  
-        </section>
-    </main>
-    <footer>
-        <p>GVA &copy; 2023 - Gonzalo Acosta</p>
-        <a href="site-plan.html">Site Plan</a>
-        <div class="social">
-            <a href="https://facebook.com" target="_blank">
-                <img src="https://byui-wdd.github.io/wdd130/rafting_images/facebook.png" alt="fb icon">
-            </a>
-            <a href="https://instagram.com" target="_blank">
-                <img src="https://byui-wdd.github.io/wdd130/rafting_images/instagram.png" alt="instagram icon">
-            </a>
-            <a href="https://www.linkedin.com/" target="_blank">
-                <img src="images/logo-linkedin-icon-1024(2).png" alt="linkedin icon">
-            </a>
-        </div>
-    </footer>
+        </footer>
+    </div>
 </body>
 </html>
