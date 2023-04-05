@@ -27,8 +27,8 @@ nav a:hover {background: #396E94;
 
 #home-grid{background-color: #AAC5C1;
   display: grid;
-  grid-template-columns: 1fr, 1fr;
-  grid-template-rows: 1fr, 1fr;}
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;}
 
 .message{grid-column: 1/2;
   grid-row: 1/2;
